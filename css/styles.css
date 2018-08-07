@@ -22,3 +22,14 @@ p:hover {
 li p:hover {
   text-decoration: none;
 }
+
+#background {
+  background-image: url("../img/pic1.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity:0.2;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
